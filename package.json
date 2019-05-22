@@ -1,0 +1,18 @@
+{
+  "name": "object-upload-node-aws-compatible-sdk",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "nodemon node ./bin/www"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.460.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "express-fileupload": "^1.1.4",
+    "morgan": "~1.9.0",
+    "nodemon": "^1.19.0",
+    "uuid": "^3.3.2"
+  }
+}
